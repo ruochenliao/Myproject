@@ -1,0 +1,10 @@
+Both Techniques need to find coefficient W.
+Zero force: W = (H^H *H)^-1 * H^H
+MMSE: W = [H^HH + N0*I]H^H.
+The difference is the term N0*I which represent the noise.
+Apart from the N0*I term both equations are compararble. In fact when the noise term is zero, the MMSE eqaulizer reduces to Zero forcing qualizer.
+So the paper says
+"
+1 zero-forcing works well when channel is noiseless, but when channel is noisy, the zero forcing equalizer will amplify the noise greatly"
+2 The Minimum Mean-Square Error Linear Equalizer (MMSE-LE) balances a reduction in ISI with noise enhancement.
+"

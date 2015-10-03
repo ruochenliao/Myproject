@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<!--CSS style-->
+<link href="Cstyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="wrapper">
+<!--LOGIN FORM-->
+<form name="login-form" class="login-form" action="" method="">
+	<!--HEADER-->
+    <div class="header">
+        <h1>Login Form</h1>
+        <select>
+            <option value ="administrator">administrator</option>
+            <option value ="client">client</option>
+        </select>
+    </div>
+    <!--END HEADER-->
+	<!--CONTENT-->
+    <div class="content">
+
+        <input name="username" type="text" class="input username" value="" onfocus="this.value=''" placeholder="username"/>
+        <input name="password" type="password" class="input password" value="" onfocus="this.value=''" placeholder="password"/>
+    </div>
+    <!--END CONTENT-->
+    <!--FOOTER-->
+    <div class="footer">
+        <input type="submit" name="submit" value="Login" class="button" />
+        <input type="submit" name="submit" value="Register" class="register" />
+    </div>
+    <!--END FOOTER-->
+</form>
+<!--END LOGIN FORM-->
+</div>
+</body>
+</html>
