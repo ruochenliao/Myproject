@@ -1,0 +1,7 @@
+proxy port: 58935
+router: 1, pid: 2672, port: 55716, IP: 192.168.201.2
+router: 2, pid: 2673, port: 45309, IP: 192.168.202.2
+router: 5, pid: 2677, port: 53270, IP: 192.168.205.2
+router: 6, pid: 2678, port: 58911, IP: 192.168.206.2
+router: 4, pid: 2675, port: 54595, IP: 192.168.204.2
+router: 3, pid: 2674, port: 35818, IP: 192.168.203.2

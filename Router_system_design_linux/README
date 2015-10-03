@@ -1,0 +1,9 @@
+There are two steps to run this program
+1 config the tunnel
+2 command to run this program
+make
+sudo ./projc config_file
+make clean
+
+3 attention: When input ctrl + c in the terminal, the program can not kill itself
+  So you need input "ps -A" and then "sudo killall projc" in the terminal
